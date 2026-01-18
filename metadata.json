@@ -1,0 +1,13 @@
+
+{
+  "name": "AM Store - Luxury Watches",
+  "description": "An elegant, professional e-commerce platform for luxury watches in Algeria with a hidden admin panel and Telegram integration.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "deployment": {
+    "provider": "netlify",
+    "build_command": "npm run build",
+    "publish_directory": "dist"
+  }
+}
